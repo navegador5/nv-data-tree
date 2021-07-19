@@ -1,0 +1,15 @@
+{
+  "name": "nv-data-tree-edge",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nv-data-tree-actdef": "^1.0.9",
+    "nv-number-basic": "^1.0.1"
+  }
+}

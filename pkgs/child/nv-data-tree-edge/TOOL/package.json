@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "efdir": "^1.1.10",
+    "nv-js-parse": "^1.0.1"
+  }
+}

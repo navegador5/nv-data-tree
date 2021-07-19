@@ -1,0 +1,11 @@
+{
+  "name": "nv-data-tree-csp-bw-node",
+  "version": "1.0.0",
+  "description": "for browser",
+  "main": "nv-data-tree-csp-bw-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "nv-data-tree-child-node",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nv-data-tree-child-method": "^1.1.2",
+    "nv-data-tree-child-openg": "^1.0.6",
+    "nv-data-tree-child-repr": "^1.0.1",
+    "nv-data-tree-cmp": "^1.0.1",
+    "nv-data-tree-loadump": "^1.0.0",
+    "nv-data-tree-relation": "^1.0.1",
+    "nv-data-tree-visit": "^1.0.0"
+  }
+}

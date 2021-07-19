@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "nv-data-tree-actdef": "^1.0.16",
+    "nv-data-tree-csp-act": "^1.0.1",
+    "nv-data-tree-csp-l0": "^1.0.15"
+  }
+}

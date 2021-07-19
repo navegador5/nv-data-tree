@@ -1,0 +1,18 @@
+{
+  "name": "nv-data-tree-child-method",
+  "version": "1.1.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nv-data-tree-actdef": "^1.0.10",
+    "nv-data-tree-apidef": "^1.0.13",
+    "nv-data-tree-child-openg": "^1.0.6",
+    "nv-data-tree-edge": "^1.0.8",
+    "nv-data-tree-visit": "^1.0.0"
+  }
+}

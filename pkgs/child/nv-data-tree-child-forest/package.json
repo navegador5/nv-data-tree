@@ -1,0 +1,17 @@
+{
+  "name": "nv-data-tree-child-forest",
+  "version": "1.0.14",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nv-data-tree-edge": "^1.0.8",
+    "nv-data-tree-loadump": "^1.0.0",
+    "nv-facutil-basic": "^1.0.28",
+    "nv-facutil-defp": "^1.0.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "nv-data-tree-actdef": "^1.0.9",
+    "nv-data-tree-apidef": "^1.0.5",
+    "nv-data-tree-edge": "^1.0.7",
+    "nv-facutil-basic": "^1.0.28",
+    "nv-number-basic": "^1.0.1"
+  },
+  "version": "0.0.1"
+}

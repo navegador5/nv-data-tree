@@ -1,0 +1,20 @@
+export type BL = boolean;
+export type ID = number;
+export type SLOTS = any[];
+export type A = Array<ID>;
+export type VD = void;
+export const $is_empty: (slots: SLOTS, id: ID) => BL;
+export const $is_fstch: (lb: A, id: ID) => BL;
+export const $is_root: (pr: A, id: ID) => BL;
+export const $is_lstch: (rb: A, id: ID) => BL;
+export const $is_leaf: (fc: A, id: ID) => BL;
+export const $is_lonely: (rb: A, lb: A, id: ID) => BL;
+export const $is_isolated: (fc: A, pr: A, id: ID) => BL;
+export const link_pc: (cary: A, pr: A, p: ID, c: ID) => VD;
+export const link_rl: (rb: A, lb: A, r: ID, l: ID) => VD;
+export const $disconn: (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID) => ID;
+export const $prepend_child: (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID, ch: ID) => ID;
+export const $append_child: (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID, ch: ID) => ID;
+export const $add_rsib: (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID, sib: ID) => ID;
+export const $add_lsib: (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID, sib: ID) => ID;
+

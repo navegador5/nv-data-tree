@@ -1,0 +1,20 @@
+export type BL = boolean;
+export type ID = number;
+export type SLOTS = any[];
+export type A = Array<ID>;
+export type VD = void;
+export function $is_empty (slots: SLOTS, id: ID) : BL;
+export function $is_fstch (lb: A, id: ID) : BL;
+export function $is_root (pr: A, id: ID) : BL;
+export function $is_lstch (rb: A, id: ID) : BL;
+export function $is_leaf (fc: A, id: ID) : BL;
+export function $is_lonely (rb: A, lb: A, id: ID) : BL;
+export function $is_isolated (fc: A, pr: A, id: ID) : BL;
+export function link_pc (cary: A, pr: A, p: ID, c: ID) : VD;
+export function link_rl (rb: A, lb: A, r: ID, l: ID) : VD;
+export function $disconn (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID) : ID;
+export function $prepend_child (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID, ch: ID) : ID;
+export function $append_child (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID, ch: ID) : ID;
+export function $add_rsib (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID, sib: ID) : ID;
+export function $add_lsib (fc: A, rb: A, pr: A, lb: A, lc: A, id: ID, sib: ID) : ID;
+
